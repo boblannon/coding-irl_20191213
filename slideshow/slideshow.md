@@ -176,7 +176,6 @@ class Checkout:
 
 So even when you're building something as boring as a store, you need to be creative. Literally, you need to create a little world. You have to put objects in it and have them interact with each other. You also need to have some of them interact with real live people or objects here in the real world.
 
-
 # Thanks!
 
 - questions: [blannon@gmail.com](mailto:blannon@gmail.com)
