@@ -276,7 +276,7 @@ Working on building websites is a HUGE part of the tech industry. When you're wr
 
 # Websites: Client-side
 
-![website-anatomy](./img/website-anatomy.png)
+![website-anatomy](./img/html-css-js.PNG)
 
 **Things to learn:**
 - Javascript, HTML & CSS
