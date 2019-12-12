@@ -10,7 +10,7 @@ class: center, middle
 - I write code, and people give me money for it
 - It's pretty sweet
 
-.right[![code -> money](./img/placeholder-400-x-400.jpg)]
+.right[![code -> money](./img/coding-money.jpg)]
 
 ---
 
@@ -70,28 +70,42 @@ Imagine asking an X what they do, and they say "Y"?
     - Learned new skills
     - **Learned about an entirely new domain**
 
+???
+
+There a lot to learn while building your coding skills, but to be a well-rounded developer you should also be exposing yourself to in-depth knowledge of other domains. You can use code in a million ways, and apply it to almost any other subject. In fact that's the best
+
 ---
 
-# Domain knowledge: the WHY of your code
+# Coding with a purpose
 
 It's fun at first, but just telling computers what to do gets pretty boring imo
 
 ```python
+
 def hello_world():
     print "Hello World."
+
 ```
 
 Writing code really gets interesting when you make computers do things _for a reason_.
 
+It's also the best way to get better at coding:
+- Apply your coding skill to a real problem in some domain.
+- Learn something about the world, then express that knowledge through code.
+
 ---
 
-# Writing a story
+# Going Shopping
 
-Here's a story I wrote for you:
+Let's take a really simple domain: shopping at a grocery store. I know about this domain because I do it all the time. I can combine that domain knowledge with my storytelling skills to write this story for you:
 
-> Once upon a time, I went to Acme to buy food. I had a list of stuff in mind that I needed to get: apples, milk, bread, eggs, waffles and ice cream. I got a shopping cart and wheeled it inside. Then I looked for the stuff I needed. When I found apples, I put them into my shopping cart. Same with the milk and bread, etc. When I had found everything I needed, I went to the checkout. The cashier scanned all of the items and told me the total price. I gave them my credit card, paid, and took everything with me.
+> _Once upon a time, I went to Acme to buy food. I had a list of stuff in mind that I needed to get: apples, milk, bread, eggs, waffles and ice cream. I got a shopping cart and wheeled it inside._
 >
-> If I wasn't sure where something was, I looked at the signs above the aisles: each aisle had a bunch of related types of things, to make it easier to find what I needed. If I was really lost, I could ask someone where the thing was.
+> _Then I looked for the stuff I needed. When I found apples, I put them into my shopping cart. Same with the milk and bread, etc._
+>
+> _When I had found everything I needed, I went to the checkout. The cashier scanned all of the items and told me the total price. I gave them my credit card, paid, and took everything with me._
+>
+> _And they all lived happily ever after._
 
 ---
 
@@ -110,15 +124,25 @@ Things I didn't mention:
 - the podcast I was listening to
 - what color my socks were
 - the name of the cashier
-- how much hair I (used to) have
+- how I got to the store, and how I got home
+
+???
 
 And that's just good storytelling: focus on what's important. Give us _just enough_ information to understand you. Every story contains a little world, but the writer decides what to highlight and how it works.
 
 ---
 
-# Writing is writing
+# What does this have to do with code?
 
-What does this have to do with writing code? **EVERYTHING**. When you write a story, the pen and paper don't know what you're writing. You're just using them to create a representation of your ideas.
+**EVERYTHING**.
+- Writing code is just another form of writing!
+- Computers might be shinier and more expensive, but they're not any smarter than a pencil and paper.
+
+![dummies](./img/dumb-pen-computer.jpg)
+
+???
+
+When you write a story, the pen and paper don't know what you're writing. You're just using them to create a representation of your ideas.
 
 The exact same thing is true when writing code: computers are piles of rocks and plastic. They have no idea what we're doing with them: they're just tools that we use to create a representation of our ideas. We say that they "think" but that's (so far) not true: all they can do is calculate and store information.
 
@@ -128,7 +152,6 @@ The exact same thing is true when writing code: computers are piles of rocks and
 
 In fact, this is _so_ true, that some software developers actually chunk up their work into "stories." These are the to-do's that are necessary for building a product.
 
-Imagine being the first person to build a website like Amazon. It's a lot like writing a story: you're going to start with a mostly-blank page. Computers don't know what a "store" is. Python doesn't have built-in object for "shopping cart." So to even get started, you have some to-do's:
 
 | story                                                      | needed                                |
 |------------------------------------------------------------|---------------------------------------|
@@ -141,9 +164,13 @@ Imagine being the first person to build a website like Amazon. It's a lot like w
 | and **told me the total price.**                           | `Checkout.reportTotalCost()`          |
 | I **gave them my credit card, paid,**                      | `Payment` service                     |
 
+???
+
+Imagine being the first person to build a website like Amazon. It's a lot like writing a story: you're going to start with a mostly-blank page. Computers don't know what a "store" is. Python doesn't have built-in object for "shopping cart." So to even get started, you have some to-do's:
+
 ---
 
-# Coding is Creative
+# Shopping domain, in code
 
 ```python
 class FoodItem:
@@ -175,6 +202,135 @@ class Checkout:
 ???
 
 So even when you're building something as boring as a store, you need to be creative. Literally, you need to create a little world. You have to put objects in it and have them interact with each other. You also need to have some of them interact with real live people or objects here in the real world.
+
+---
+
+# Writing well means learning
+
+To write great code, you need:
+- Deep understanding of the domain
+- Ability to model concrete and abstract concepts
+- Careful design of the interfaces and relationships involved
+- **Curiosity: willingness to learn new things**
+    - even about topics you _think_ you know everything about!
+
+???
+
+So to write good, useful code, you need some skills that have nothing to do with programming language syntax or how to set up your text editor. That stuff is always pretty well documented and you'll always have references at hand (or just Google the latest error meessage you saw). I personally think it's much more important to develop these skills first: levelling up as a coder will come with experience.
+
+---
+
+# Coding is creative
+
+People who code are creating new things. Their code can
+- represent the real world
+- represent our understanding of real things
+- help us to imagine things that aren't real
+
+Coding is a skill that can be useful in business, art, science, engineering and more.
+
+---
+name: whatchuwant
+
+# So... What do you want to create?
+
+- [Websites](#websites)
+- [Art](#art)
+- [Mobile Apps](#mobile)
+- [Robots](#robots)
+- [Artificial Intelligence](#artificial-intelligence)
+- [Games](#games)
+- [Maps](#maps)
+- [Data Visualizations](#data-visualizations)
+- [Research/Analysis](#research-analysis)
+- [Other fun hacks](#other-fun-hacks)
+
+---
+name: websites
+
+# Websites
+
+Working on building websites is a HUGE part of the tech industry. When you're writing code for the web, there aretwo major focus areas:
+
+- client-side (aka "Frontend")
+- server-side (aka "Backend")
+
+![client-server](./img/client-server.png)
+
+---
+
+# Websites: Server-Side
+
+- Interfacing with databases
+- Authenticating users
+- Searching for information to be displayed
+- Preparing content for the client
+- Making data available directly through APIs
+
+**Things to learn**
+- Node.js, Ruby/Rails, Python
+- Web Application Frameworks like express, Flask, Django
+- Databases: SQL, Elasticsearch, Redis
+
+---
+
+# Websites: Client-side
+
+![website-anatomy](./img/website-anatomy.png)
+
+**Things to learn:**
+- Javascript, HTML & CSS
+- Design principles
+
+**Where to start:**
+- [Getting Started With The Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+- [awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning)
+- [Codepen.io](https://codepen.io/)
+
+### [Back](#whatchuwant)
+
+---
+name: art
+
+# Art
+
+---
+name: mobile-apps
+
+# Mobile Apps
+
+---
+name: robots
+
+# Robots
+
+---
+name: artificial-intelligence
+
+# Artificial Intelligence
+
+---
+name: games
+
+# Games
+
+---
+name: maps
+# Maps
+
+---
+name: data-visualizations
+# Data Visualizations
+
+---
+name: research-analysis
+# Research/Analysis
+
+---
+name: other-fun-hacks
+# Other fun hacks
+
+---
 
 # Thanks!
 
