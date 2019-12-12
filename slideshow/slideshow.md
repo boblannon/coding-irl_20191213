@@ -255,7 +255,7 @@ Working on building websites is a HUGE part of the tech industry. When you're wr
 - client-side (aka "Frontend")
 - server-side (aka "Backend")
 
-![client-server](./img/client-server.png)
+.right[![client-server](./img/client-server.png)]
 
 ---
 
@@ -276,16 +276,12 @@ Working on building websites is a HUGE part of the tech industry. When you're wr
 
 # Websites: Client-side
 
-![website-anatomy](./img/html-css-js.PNG)
-
 **Things to learn:**
 - Javascript, HTML & CSS
 - Design principles
 
-**Where to start:**
-- [Getting Started With The Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
-- [awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning)
-- [Codepen.io](https://codepen.io/)
+.right[![website-anatomy](./img/html-css-js.PNG)]
+
 
 ### [Back](#whatchuwant)
 
@@ -337,5 +333,7 @@ name: other-fun-hacks
 - questions: [blannon@gmail.com](mailto:blannon@gmail.com)
 - this presentation: https://github.com/boblannon/coding-irl_20191213
 
-
-.right[![handsome](./img/boblannon.jpg)]
+**Where to start:**
+- [Getting Started With The Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
+- [awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning)
+- [Codepen.io](https://codepen.io/)
