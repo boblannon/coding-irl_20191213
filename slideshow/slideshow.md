@@ -343,10 +343,11 @@ name: robots
 
 - [FIRST Robotics](https://www.firstinspires.org/robotics/frc)
 - [Hackernoon's list of learning resources](https://hackernoon.com/16-best-resources-to-learn-robotics-and-iot-development-in-2019-847bb93c9bd9)
+- [Hackaday](https://hackaday.com/)
 
 ### [Back](#whatchuwant)
 
-.right[![Bender](./img/bender.img)]
+.right[![Bender](./img/bender.png)]
 
 
 ---
