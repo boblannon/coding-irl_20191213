@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- We're going to import style.css to make things look nice -->
+        <link rel="stylesheet" href="./src/style.css">
+    </head>
+    <body>
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="./img/jane_doe.jpg" alt="Jane" style="width:100%">
+                    <div class="container">
+                        <h2>Jane Doe</h2>
+                        <p class="title">CEO & Founder</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>example@example.com</p>
+                        <p><button id="jane" class="button" onclick="contact('Jane Doe')" >Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="./img/john_doe.jpg" alt="John" style="width:100%">
+                    <div class="container">
+                        <h2>John Doe</h2>
+                        <p class="title">Designer</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>example@example.com</p>
+                        <p><button id="john" class="button" onclick="contact('John Doe')" >Contact</button></p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+               
+                <div class="card">
+                    <img src="./img/gritty_tho.jpg" alt="Gritty" style="width:100%">
+                    <div class="container">
+                        <h2>Gritty, tho</h2>
+                        <p class="title">Mascot</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>example@example.com</p>
+                        <p><button id="gritty" class="button" onclick="contact('Gritty')">Contact</button></p>
+                    </div>
+                
+            </div>
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-box">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <p id="modal-content"></p>
+            </div>
+
+        </div>
+        <script src="./src/index.js"></script>
+    </body>
+</html>

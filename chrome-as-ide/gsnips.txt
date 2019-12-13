@@ -1,0 +1,17 @@
+			<div class="column">
+                <div class="card">
+                    <img src="./img/gritty_tho.jpg" alt="Gritty" style="width:100%">
+                    <div class="container">
+                        <h2>Gritty, tho</h2>
+                        <p class="title">Mascot</p>
+                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                        <p>example@example.com</p>
+                        <p><button id="gritty" class="button" onclick="contact('Gritty')">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+			
+			
+    if (name === "Gritty") {
+      message = '<img src="./img/gritty_party.gif" alt="Gritty!" style="width:100%">';  
+    }
