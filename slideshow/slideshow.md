@@ -378,6 +378,7 @@ name: maps
 - [OpenStreetMap](https://www.openstreetmap.org/) - the wikipedia of maps
 - [Mapbox](https://mapbox.com)
 - [Leaflet.js](https://leafletjs.com/)
+- [geojson.io](https://geojson.io/)
 
 ### [Back](#whatchuwant)
 
