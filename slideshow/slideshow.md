@@ -43,6 +43,8 @@ class: center, middle
 
 ???
 
+each point
+
 Imagine asking an X what they do, and they say "Y"?
 - lawyer, I write
 - accountant, I count
@@ -57,7 +59,7 @@ Imagine asking an X what they do, and they say "Y"?
     - Majored in English (not Computer Science)
     - Got a Masters of Arts in Linguistics
     - Learned to code in grad school to support my research
-    - Discovered I liked coding and went use it in a LOT of different areas
+    - Discovered I liked coding and went on to use it in a LOT of different areas
 --
 - My jobs:
     - Conversational analysis for pharma market research
@@ -72,13 +74,23 @@ Imagine asking an X what they do, and they say "Y"?
 
 ???
 
-There a lot to learn while building your coding skills, but to be a well-rounded developer you should also be exposing yourself to in-depth knowledge of other domains. You can use code in a million ways, and apply it to almost any other subject. In fact that's the best
+There a lot to learn while building your coding skills, but to be a well-rounded developer you should also be exposing yourself to in-depth knowledge of other domains. You can use code in a million ways, and apply it to almost any other subject. In fact that's the best way to level up, too.
+
+That's important to know, because soon you're going to hit the ....
+
+---
+
+# The "what now?" point
+
+- After you finish an introduction to programming, it's normal to hit this point
+- You know you know _something_, and can do things with it...
+- But it's hard, sometimes, to figure out how to grow from there
 
 ---
 
 # Coding with a purpose
 
-It's fun at first, but just telling computers what to do gets pretty boring imo
+It's fun at first, but just telling computers what to do gets pretty boring.
 
 ```python
 
@@ -92,6 +104,9 @@ Writing code really gets interesting when you make computers do things _for a re
 It's also the best way to get better at coding:
 - Apply your coding skill to a real problem in some domain.
 - Learn something about the world, then express that knowledge through code.
+- Explore another **subject domain** with your new skill
+
+???
 
 ---
 
@@ -236,9 +251,8 @@ name: whatchuwant
 
 - [Websites](#websites)
 - [Art](#art)
-- [Mobile Apps](#mobile)
+- [Mobile Apps](#mobile-apps)
 - [Robots](#robots)
-- [Artificial Intelligence](#artificial-intelligence)
 - [Games](#games)
 - [Maps](#maps)
 - [Data Visualizations](#data-visualizations)
@@ -255,7 +269,7 @@ Working on building websites is a HUGE part of the tech industry. When you're wr
 - client-side (aka "Frontend")
 - server-side (aka "Backend")
 
-![client-server](./img/client-server.png)
+.right[![client-server](./img/client-server.png)]
 
 ---
 
@@ -276,16 +290,12 @@ Working on building websites is a HUGE part of the tech industry. When you're wr
 
 # Websites: Client-side
 
-![website-anatomy](./img/html-css-js.PNG)
-
-**Things to learn:**
-- Javascript, HTML & CSS
-- Design principles
-
 **Where to start:**
 - [Getting Started With The Web](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web)
 - [awesome-javascript-learning](https://github.com/micromata/awesome-javascript-learning)
 - [Codepen.io](https://codepen.io/)
+
+.right[![website-anatomy](./img/html-css-js.PNG)]
 
 ### [Back](#whatchuwant)
 
@@ -294,41 +304,114 @@ name: art
 
 # Art
 
+- Things to learn/play with:
+    - [Processing](https://processingfoundation.org/projects) (Java, Python, JS) - "a software sketchbook"
+    - [Pixi.js](https://www.pixijs.com/) JS, WebGL renderer
+    - [Shadertoy](https://www.shadertoy.com/)
+    -
+- Exhibits/Collections:
+    - Google features [DevArt](https://devart.withgoogle.com/)
+    - The Verge's [Art Club](https://www.theverge.com/art-club)
+    -
+
+### [Back](#whatchuwant)
+
 ---
 name: mobile-apps
 
 # Mobile Apps
 
+- Heads up: mobile development is very advanced, and requires a lot of tooling and training.
+- iOS (Apple)
+    - written in [swift](https://developer.apple.com/swift/)
+    - try starting with a full course like [this one on udacity](https://www.udacity.com/course/intro-to-ios-app-development-with-swift--ud585)
+- Android
+    - used to be written in Java
+    - as of May 2019: preferred language is [Kotlin](https://kotlinlang.org/)
+    - [Android Kotlin Bootcamp](https://developer.android.com/courses/kotlin-bootcamp/overview)
+- Cross-platform Alternatives
+    - [React Native](https://facebook.github.io/react-native/) (Facebook, Javascript)
+    - [Xamarin](https://visualstudio.microsoft.com/xamarin/) (Microsoft, C#)
+    - [Adobe PhoneGap](https://phonegap.com/) - (Adobe, HTML/CSS/JS)
+
+### [Back](#whatchuwant)
+
 ---
 name: robots
 
-# Robots
+# Robots and "Internet of things"
 
----
-name: artificial-intelligence
+- [FIRST Robotics](https://www.firstinspires.org/robotics/frc)
+- [Hackernoon's list of learning resources](https://hackernoon.com/16-best-resources-to-learn-robotics-and-iot-development-in-2019-847bb93c9bd9)
+- [Hackaday](https://hackaday.com/)
 
-# Artificial Intelligence
+### [Back](#whatchuwant)
+
+.right[![Bender](./img/bender.png)]
+
 
 ---
 name: games
 
 # Games
 
+- AAA Game Engines (hard, mostly C++)
+    - [Unreal](https://www.unrealengine.com/en-US/) (The Fortnite one)
+    - [Unity](https://unity.com) (Cross-platform)
+- Smaller but still very cool
+    - [Gamemaker](https://www.yoyogames.com/gamemaker) (GUI, GameMaker Lang)
+    - [Corona](https://coronalabs.com/) (2D mobile games, Lua)
+    - [RPG Maker](https://www.rpgmakerweb.com/) (GUI with JS optional)
+- Web-based (fun, easy to start, but not limiting)
+    - [Phaser](http://phaser.io/)
+    - [Pixi.js](http://pixijs.com/)
+    - [HTML5 game devs board](https://www.html5gamedevs.com/)
+    - [MDN Games Page](https://developer.mozilla.org/en-US/docs/Games)
+
+### [Back](#whatchuwant)
+
 ---
+
 name: maps
 # Maps
+
+- [OpenStreetMap](https://www.openstreetmap.org/) - the wikipedia of maps
+- [Mapbox](https://mapbox.com)
+- [Leaflet.js](https://leafletjs.com/)
+- [geojson.io](https://geojson.io/)
+
+### [Back](#whatchuwant)
 
 ---
 name: data-visualizations
 # Data Visualizations
 
+- [d3.js](https://d3js.org/) - "Data-Driven Documents," literally everywhere
+    - [examples](https://github.com/d3/d3/wiki/Gallery) - remember to view source!
+    - use with [observable](https://observablehq.com/)!
+- [plot.ly](https://plot.ly/)
+
+### [Back](#whatchuwant)
+
 ---
 name: research-analysis
 # Research/Analysis
 
+- [R](https://www.r-project.org/): Statistics
+- [Pandas](https://pandas.pydata.org/) Python data analysis
+- [Jupyter](https://jupyter.org/)
+
+
+### [Back](#whatchuwant)
+
 ---
 name: other-fun-hacks
 # Other fun hacks
+
+- https://isitchristmas.com/ ([What it looks like live](https://www.youtube.com/watch?v=vi106m69jK0))
+- https://openpuppies.com/
+
+### [Back](#whatchuwant)
 
 ---
 
@@ -337,5 +420,3 @@ name: other-fun-hacks
 - questions: [blannon@gmail.com](mailto:blannon@gmail.com)
 - this presentation: https://github.com/boblannon/coding-irl_20191213
 
-
-.right[![handsome](./img/boblannon.jpg)]
